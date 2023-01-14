@@ -1,0 +1,1316 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Berlin",
+				"apps": [
+					{
+						"id": 5,
+						"title": "Jelbi",
+						"website_url": "https://www.jelbi.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.trafi.whitelabel.bvg",
+						"app_store_url": "https://apps.apple.com/de/app/jelbi/id1451106402",
+						"created_at": "2023-01-06T11:56:24.751Z",
+						"updated_at": "2023-01-06T11:56:24.751Z",
+						"web_store_url": null
+					},
+					{
+						"id": 13,
+						"title": "BVG Tickets",
+						"website_url": "https://www.bvg.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.bvg.ticket",
+						"app_store_url": "https://apps.apple.com/at/app/bvg-tickets-bus-bahn-berlin/id1232772818",
+						"created_at": "2023-01-06T18:08:54.583Z",
+						"updated_at": "2023-01-06T18:08:54.583Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[13.268261096607405, 52.659280076681576],
+						[13.034801623951155, 52.54250801961034],
+						[13.119945666919905, 52.37011986879359],
+						[13.636303088794905, 52.260983688824965],
+						[13.897228381763655, 52.44216980323775],
+						[13.650035998951155, 52.660945994120176],
+						[13.268261096607405, 52.659280076681576]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Neubrandenburg",
+				"apps": [
+					{
+						"id": 3,
+						"title": "HandyTicket",
+						"website_url": "https://handyticket.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hansecom.htd.android",
+						"app_store_url": "https://itunes.apple.com/de/app/handyticket-deutschland/id397986271?mt=8",
+						"created_at": "2023-01-06T11:22:16.084Z",
+						"updated_at": "2023-01-06T11:25:03.485Z",
+						"web_store_url": "https://handyticket.de/portals/web/x/system/login.html"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[13.210645365696156, 53.51081884650742],
+						[13.353016890537695, 53.51783186980967],
+						[13.319319488208338, 53.60389717639106],
+						[13.20390588523028, 53.59789830140531],
+						[13.210645365696156, 53.51081884650742]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Campania",
+				"apps": [
+					{
+						"id": 2,
+						"title": "GetTicket",
+						"website_url": null,
+						"play_store_url": null,
+						"app_store_url": null,
+						"created_at": "2023-01-06T11:21:10.205Z",
+						"updated_at": "2023-01-06T11:21:10.205Z",
+						"web_store_url": null
+					},
+					{
+						"id": 21,
+						"title": "DropTicket",
+						"website_url": "https://dropticket.it/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.atono.dropticket",
+						"app_store_url": "https://apps.apple.com/it/app/dropticket/id916708542",
+						"created_at": "2023-01-06T18:47:26.511Z",
+						"updated_at": "2023-01-06T18:47:26.511Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[13.76525881021515, 41.20483894408429],
+						[14.1895441937228, 41.481306753636034],
+						[15.438384190462294, 40.68481905613638],
+						[13.76525881021515, 40.16682760283675],
+						[13.76525881021515, 41.20483894408429]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Malta",
+				"apps": [
+					{
+						"id": 8,
+						"title": "Tallinja",
+						"website_url": "https://www.publictransport.com.mt/en/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.mpt.tallinjaapp",
+						"app_store_url": "https://itunes.apple.com/mt/app/tallinja/id1074287322?mt=8",
+						"created_at": "2023-01-06T12:43:06.350Z",
+						"updated_at": "2023-01-06T12:43:06.350Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "GeometryCollection",
+				"geometries": [
+					{
+						"type": "Polygon",
+						"coordinates": [
+							[
+								[13.76525881021515, 41.20483894408429],
+								[14.1895441937228, 41.481306753636034],
+								[15.438384190462294, 40.68481905613638],
+								[13.76525881021515, 40.16682760283675],
+								[13.76525881021515, 41.20483894408429]
+							]
+						]
+					},
+					{
+						"type": "Polygon",
+						"coordinates": [
+							[
+								[13.937956096762408, 36.07437221560161],
+								[14.241691624811876, 36.21210636205052],
+								[14.779069866745553, 35.7868083589577],
+								[14.356176554615137, 35.62934236930346],
+								[13.937956096762408, 36.07437221560161]
+							]
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Bremen/Niedersachsen",
+				"apps": [
+					{
+						"id": 6,
+						"title": "Fahrplaner",
+						"website_url": null,
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hafas.android.vbn",
+						"app_store_url": "https://apps.apple.com/us/app/fahrplaner/id478311038",
+						"created_at": "2023-01-06T11:57:32.897Z",
+						"updated_at": "2023-01-06T11:57:32.897Z",
+						"web_store_url": null
+					},
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[6.909386274987085, 52.21124654766189],
+						[9.03535128267542, 52.23396206068986],
+						[9.307277039472764, 51.293072313802554],
+						[10.790508440185556, 51.555117937484965],
+						[11.643366495595412, 53.05886095541797],
+						[8.404977937372482, 54.17324645868362],
+						[6.8846657516418714, 53.75879760292517],
+						[6.909386274987085, 52.21124654766189]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Steiermark",
+				"apps": [
+					{
+						"id": 4,
+						"title": "GrazMobil",
+						"website_url": "https://www.holding-graz.at/de/mobilitaet/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=at.upstream.grazmobil",
+						"app_store_url": "https://apps.apple.com/at/app/grazmobil-%C3%B6ffi-ticket-kaufen/id1368430213",
+						"created_at": "2023-01-06T11:29:14.039Z",
+						"updated_at": "2023-01-06T11:29:14.039Z",
+						"web_store_url": "https://www.holding-graz.at/de/mobilitaet/ticketshop/"
+					}
+				]
+			},
+			"geometry": {
+				"type": "GeometryCollection",
+				"geometries": [
+					{
+						"type": "Polygon",
+						"coordinates": [
+							[
+								[6.909386274987085, 52.21124654766189],
+								[9.03535128267542, 52.23396206068986],
+								[9.307277039472764, 51.293072313802554],
+								[10.790508440185556, 51.555117937484965],
+								[11.643366495595412, 53.05886095541797],
+								[8.404977937372482, 54.17324645868362],
+								[6.8846657516418714, 53.75879760292517],
+								[6.909386274987085, 52.21124654766189]
+							]
+						]
+					},
+					{
+						"type": "Polygon",
+						"coordinates": [
+							[
+								[16.247920688309918, 46.86515269358844],
+								[16.066260279430427, 47.51868059642652],
+								[15.403734082340511, 47.83884234485575],
+								[13.65124543197364, 47.62681980745663],
+								[13.84359174725781, 46.923570024640526],
+								[14.858752855702033, 46.99285795997196],
+								[15.115214609414258, 46.60148704322074],
+								[16.098317998644454, 46.65652369682755],
+								[16.247920688309918, 46.86515269358844]
+							]
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Wien",
+				"apps": [
+					{
+						"id": 1,
+						"title": "WienMobil",
+						"website_url": "https://www.wienerlinien.at/wienmobil-app",
+						"play_store_url": "https://play.google.com/store/apps/details?id=at.wienerlinien.wienmobillab",
+						"app_store_url": "https://apps.apple.com/at/app/wienmobil/id1107918142",
+						"created_at": "2023-01-06T11:19:41.740Z",
+						"updated_at": "2023-01-06T11:19:41.740Z",
+						"web_store_url": null
+					},
+					{
+						"id": 7,
+						"title": "Wegfinder",
+						"website_url": "https://wegfinder.at/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=ch.swift.willi",
+						"app_store_url": "https://apps.apple.com/at/app/id680580267",
+						"created_at": "2023-01-06T12:02:14.471Z",
+						"updated_at": "2023-01-06T12:02:14.471Z",
+						"web_store_url": null
+					},
+					{
+						"id": 25,
+						"title": "VOR AnachB",
+						"website_url": "https://apps.apple.com/at/app/vor-anachb/id371295078",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hafas.android.vao",
+						"app_store_url": "https://apps.apple.com/at/app/vor-anachb/id371295078",
+						"created_at": "2023-01-06T20:30:33.079Z",
+						"updated_at": "2023-01-06T20:30:33.079Z",
+						"web_store_url": "https://shop.vor.at/"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[16.195533895643955, 48.22517263392752],
+						[16.22437300697208, 48.06573360747468],
+						[16.39740767494083, 48.0666513388894],
+						[16.53473677650333, 48.15192884265778],
+						[16.541603231581455, 48.268154551929676],
+						[16.387794637831455, 48.313840345951135],
+						[16.195533895643955, 48.22517263392752]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Budapest",
+				"apps": [
+					{
+						"id": 19,
+						"title": "BudapestGO",
+						"website_url": "https://bkk.hu",
+						"play_store_url": "https://play.google.com/store/apps/details?id=hu.webvalto.bkkfutar",
+						"app_store_url": "https://apps.apple.com/hu/app/budapestgo/id916193835",
+						"created_at": "2023-01-06T18:08:54.596Z",
+						"updated_at": "2023-01-06T18:08:54.596Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[18.82322413183684, 47.312600726433146],
+						[19.437663750105713, 47.31622311401364],
+						[19.432320796903376, 47.75270004157625],
+						[18.64156372295735, 47.698788572969164],
+						[18.82322413183684, 47.312600726433146]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Hamburg",
+				"apps": [
+					{
+						"id": 14,
+						"title": "hvv Public Transport",
+						"website_url": "https://www.hvv.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.eos.uptrade.android.fahrinfo.hamburg",
+						"app_store_url": "https://apps.apple.com/ke/app/hvv-public-transport-hamburg/id501995569",
+						"created_at": "2023-01-06T18:08:54.585Z",
+						"updated_at": "2023-01-06T18:08:54.585Z",
+						"web_store_url": "https://www.hvv.de/de/onlineshop"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[9.670401131262166, 53.663114817667406],
+						[10.130513379397415, 53.81156051708237],
+						[10.429747219093766, 53.37424728464265],
+						[9.763710608156728, 53.36272839724353],
+						[9.670401131262166, 53.663114817667406]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Zürich",
+				"apps": [
+					{
+						"id": 15,
+						"title": "ZVV",
+						"website_url": "https://www.zvv.ch/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=ch.mnc.zvv.oneapp",
+						"app_store_url": "https://apps.apple.com/us/app/zvv-app/id1446767437",
+						"created_at": "2023-01-06T18:08:54.587Z",
+						"updated_at": "2023-01-06T18:08:54.587Z",
+						"web_store_url": "https://ticketshop.zvv.ch/home?0"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[8.61444805379002, 47.34279178981592],
+						[8.542997928480505, 47.405431837527914],
+						[8.41726786301337, 47.42454660242146],
+						[8.406190324205692, 47.37205807862907],
+						[8.540228543778584, 47.320643685292],
+						[8.61444805379002, 47.34279178981592]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Niederlande",
+				"apps": [
+					{
+						"id": 17,
+						"title": "GVB reis app",
+						"website_url": "https://www.gvb.nl",
+						"play_store_url": "https://play.google.com/store/apps/details?id=nl.gvb.reizigersapp",
+						"app_store_url": "https://itunes.apple.com/nl/app/gvb/id370393784?mt=8",
+						"created_at": "2023-01-06T18:08:54.592Z",
+						"updated_at": "2023-01-06T18:45:03.201Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[3.1579362093046974, 51.34246437676438],
+						[6.239347308529312, 51.02908988051516],
+						[7.463749069810616, 52.76036665072172],
+						[7.035208453362159, 53.65859658982194],
+						[4.657828366874295, 53.47681231781911],
+						[3.1579362093046974, 51.34246437676438]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Norway",
+				"apps": [
+					{
+						"id": 9,
+						"title": "Entur",
+						"website_url": null,
+						"play_store_url": "https://play.google.com/store/apps/details?id=no.entur\u0026gl=US",
+						"app_store_url": null,
+						"created_at": "2023-01-06T13:11:12.480Z",
+						"updated_at": "2023-01-06T13:11:12.480Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[10.60714048064514, 58.291533125893466],
+						[7.078965821837801, 57.52254266778209],
+						[2.8270630278904973, 59.78068431589088],
+						[5.269645483987882, 64.0527382056305],
+						[12.778324886065038, 69.50350816037499],
+						[25.35310123412196, 71.92084947412795],
+						[33.35934372910785, 70.49349932071215],
+						[29.24313996049928, 69.168308971524],
+						[27.252887588864375, 69.88027231547983],
+						[25.081703183444475, 68.54840501642991],
+						[21.05596543172841, 68.87683192733616],
+						[14.94950929148494, 65.90757078782516],
+						[13.818684080328742, 63.973460062939324],
+						[12.371227810048806, 61.98084495568048],
+						[12.506926835387551, 59.917002716667014],
+						[10.60714048064514, 58.291533125893466]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Ludwigstlust-Parchim",
+				"apps": [
+					{
+						"id": 3,
+						"title": "HandyTicket",
+						"website_url": "https://handyticket.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hansecom.htd.android",
+						"app_store_url": "https://itunes.apple.com/de/app/handyticket-deutschland/id397986271?mt=8",
+						"created_at": "2023-01-06T11:22:16.084Z",
+						"updated_at": "2023-01-06T11:25:03.485Z",
+						"web_store_url": "https://handyticket.de/portals/web/x/system/login.html"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[11.227026631330682, 53.052061298319785],
+						[12.711187769447394, 53.24036457928523],
+						[12.01803558955772, 53.76419489439101],
+						[10.497178159564495, 53.50066363713563],
+						[11.227026631330682, 53.052061298319785]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Berlin-Brandenburg",
+				"apps": [
+					{
+						"id": 10,
+						"title": "VBB",
+						"website_url": "https://www.vbb.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hafas.android.vbb",
+						"app_store_url": "https://itunes.apple.com/de/app/berlin-brandenburg-ifahrinfo/id409357982?mt=8",
+						"created_at": "2023-01-06T18:08:54.572Z",
+						"updated_at": "2023-01-06T18:08:54.572Z",
+						"web_store_url": null
+					},
+					{
+						"id": 3,
+						"title": "HandyTicket",
+						"website_url": "https://handyticket.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hansecom.htd.android",
+						"app_store_url": "https://itunes.apple.com/de/app/handyticket-deutschland/id397986271?mt=8",
+						"created_at": "2023-01-06T11:22:16.084Z",
+						"updated_at": "2023-01-06T11:25:03.485Z",
+						"web_store_url": "https://handyticket.de/portals/web/x/system/login.html"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[11.260697514027807, 53.10937436045299],
+						[12.230266228384904, 52.84921217654659],
+						[12.282960180252136, 52.09816033569979],
+						[13.147140990874767, 51.88400341583886],
+						[13.220912523488893, 51.43290585966486],
+						[14.791192289132454, 51.55101652359835],
+						[14.601494062410412, 52.62588167024694],
+						[14.116709705231866, 52.861939372175556],
+						[14.45395099718216, 53.29874555068835],
+						[13.74785204216123, 53.47473773658385],
+						[13.020675506393408, 53.20416455354976],
+						[12.030029211289417, 53.34281181532731],
+						[11.260697514027807, 53.10937436045299]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Rheinland-Pfalz",
+				"apps": [
+					{
+						"id": 3,
+						"title": "HandyTicket",
+						"website_url": "https://handyticket.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hansecom.htd.android",
+						"app_store_url": "https://itunes.apple.com/de/app/handyticket-deutschland/id397986271?mt=8",
+						"created_at": "2023-01-06T11:22:16.084Z",
+						"updated_at": "2023-01-06T11:25:03.485Z",
+						"web_store_url": "https://handyticket.de/portals/web/x/system/login.html"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[5.783708000205302, 51.03756719733221],
+						[7.603677892161797, 51.06564252873892],
+						[8.15078540569473, 50.20167247120435],
+						[6.442470108336794, 49.50338496859419],
+						[5.783708000205302, 51.03756719733221]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Bielefeld",
+				"apps": [
+					{
+						"id": 3,
+						"title": "HandyTicket",
+						"website_url": "https://handyticket.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hansecom.htd.android",
+						"app_store_url": "https://itunes.apple.com/de/app/handyticket-deutschland/id397986271?mt=8",
+						"created_at": "2023-01-06T11:22:16.084Z",
+						"updated_at": "2023-01-06T11:25:03.485Z",
+						"web_store_url": "https://handyticket.de/portals/web/x/system/login.html"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[8.46127210316653, 51.9715144161263],
+						[8.657317150471881, 51.98091797554699],
+						[8.627589008052627, 52.074845047482256],
+						[8.435561277290418, 52.06002757157461],
+						[8.46127210316653, 51.9715144161263]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Gütersloh",
+				"apps": [
+					{
+						"id": 3,
+						"title": "HandyTicket",
+						"website_url": "https://handyticket.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hansecom.htd.android",
+						"app_store_url": "https://itunes.apple.com/de/app/handyticket-deutschland/id397986271?mt=8",
+						"created_at": "2023-01-06T11:22:16.084Z",
+						"updated_at": "2023-01-06T11:25:03.485Z",
+						"web_store_url": "https://handyticket.de/portals/web/x/system/login.html"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[8.33304395544028, 51.875010095858556],
+						[8.450075835790516, 51.873030517209514],
+						[8.444731914313335, 51.92776671769104],
+						[8.338922269065176, 51.92776671769104],
+						[8.33304395544028, 51.875010095858556]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Linz",
+				"apps": [
+					{
+						"id": 12,
+						"title": "LinzMobil",
+						"website_url": "https://www.linzmobil.at/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=at.upstream.linzmobil",
+						"app_store_url": "https://apps.apple.com/at/app/linzmobil/id1499833574",
+						"created_at": "2023-01-06T18:08:54.581Z",
+						"updated_at": "2023-01-06T18:08:54.581Z",
+						"web_store_url": null
+					},
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[14.210543953625338, 48.21349985459406],
+						[14.393766742560972, 48.21298686146869],
+						[14.390687367957009, 48.33595783668025],
+						[14.24980597982583, 48.32879265779704],
+						[14.210543953625338, 48.21349985459406]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Salzburg",
+				"apps": [
+					{
+						"id": 11,
+						"title": "Salzburg Verkehr",
+						"website_url": "https://salzburg-verkehr.at/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hafas.android.svv",
+						"app_store_url": "https://apps.apple.com/at/app/salzburg-verkehr/id484532993",
+						"created_at": "2023-01-06T18:08:54.579Z",
+						"updated_at": "2023-01-06T18:08:54.579Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[12.956141229324055, 47.777647816532806],
+						[13.111144746739784, 47.774175572514906],
+						[13.09650552565052, 47.84415435144959],
+						[12.99058645541644, 47.83548441595198],
+						[12.956141229324055, 47.777647816532806]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Zealand",
+				"apps": [
+					{
+						"id": 18,
+						"title": "DOT Billetter",
+						"website_url": "https://dinoffentligetransport.dk",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.cellpointmobile.mticket.travelcard.dsb",
+						"app_store_url": "https://apps.apple.com/dk/app/mobilperiodekort-hovedstaden/id582247244",
+						"created_at": "2023-01-06T18:08:54.594Z",
+						"updated_at": "2023-01-06T18:08:54.594Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[12.412042986796186, 56.16196967977078],
+						[11.159346055721386, 56.001645263140574],
+						[10.78583550287798, 55.714614276011105],
+						[11.199570269104521, 55.051962467247904],
+						[12.050025066347962, 54.94318957695302],
+						[12.567193524131138, 55.19325474472319],
+						[12.888987231196223, 55.70166417821457],
+						[12.595925105119091, 56.07868424565768],
+						[12.412042986796186, 56.16196967977078]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Møn",
+				"apps": [
+					{
+						"id": 18,
+						"title": "DOT Billetter",
+						"website_url": "https://dinoffentligetransport.dk",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.cellpointmobile.mticket.travelcard.dsb",
+						"app_store_url": "https://apps.apple.com/dk/app/mobilperiodekort-hovedstaden/id582247244",
+						"created_at": "2023-01-06T18:08:54.594Z",
+						"updated_at": "2023-01-06T18:08:54.594Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[12.133400071678173, 54.87987377493042],
+						[12.275699525216227, 54.867137390208825],
+						[12.609839723524107, 54.95378652866137],
+						[12.469648410038468, 55.08552236465215],
+						[12.17450880270028, 55.06681568374631],
+						[12.179779152831317, 54.99250616304826],
+						[12.081750640393992, 54.93986253998497],
+						[12.133400071678173, 54.87987377493042]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Falster",
+				"apps": [
+					{
+						"id": 18,
+						"title": "DOT Billetter",
+						"website_url": "https://dinoffentligetransport.dk",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.cellpointmobile.mticket.travelcard.dsb",
+						"app_store_url": "https://apps.apple.com/dk/app/mobilperiodekort-hovedstaden/id582247244",
+						"created_at": "2023-01-06T18:08:54.594Z",
+						"updated_at": "2023-01-06T18:08:54.594Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[12.078040620623694, 54.943901181870785],
+						[11.76932610153121, 54.99439578840375],
+						[11.66310175087573, 54.941994481927196],
+						[11.863932163833745, 54.69047482518269],
+						[11.900446784371566, 54.5511337963635],
+						[12.059783310354781, 54.55305898816508],
+						[12.207501547985057, 54.82742692483134],
+						[12.078040620623694, 54.943901181870785]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Lolland",
+				"apps": [
+					{
+						"id": 18,
+						"title": "DOT Billetter",
+						"website_url": "https://dinoffentligetransport.dk",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.cellpointmobile.mticket.travelcard.dsb",
+						"app_store_url": "https://apps.apple.com/dk/app/mobilperiodekort-hovedstaden/id582247244",
+						"created_at": "2023-01-06T18:08:54.594Z",
+						"updated_at": "2023-01-06T18:08:54.594Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[11.070569044875642, 54.99344364749513],
+						[10.858120343564684, 54.755656680839536],
+						[11.553557889262269, 54.55883401839927],
+						[11.870571185749714, 54.62807061608589],
+						[11.870571185749714, 54.76523340859194],
+						[11.608329820069002, 55.000108159435655],
+						[11.070569044875642, 54.99344364749513]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Paderborn",
+				"apps": [
+					{
+						"id": 20,
+						"title": "Padersprinter",
+						"website_url": "https://www.padersprinter.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.mdv.PaderSprinterCompanion",
+						"app_store_url": null,
+						"created_at": "2023-01-06T18:43:47.183Z",
+						"updated_at": "2023-01-06T18:43:47.183Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[8.731038405954777, 51.678039122981346],
+						[8.834926835098988, 51.712666342572504],
+						[8.749169877079005, 51.77577757638758],
+						[8.690365105865299, 51.7496941987184],
+						[8.731038405954777, 51.678039122981346]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Karlsruhe",
+				"apps": [
+					{
+						"id": 22,
+						"title": "KVV Regiomove",
+						"website_url": "https://www.kvv.de/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.raumobil.smartmobilitymap.regiomove",
+						"app_store_url": "https://apps.apple.com/de/app/kvv-regiomove/id1465606361",
+						"created_at": "2023-01-06T18:48:49.688Z",
+						"updated_at": "2023-01-06T18:48:49.688Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[8.122509774780735, 48.83021574337235],
+						[8.737572779110042, 48.84635499343321],
+						[8.659923629061824, 49.15468615015584],
+						[8.124553173466214, 49.16404021903551],
+						[8.122509774780735, 48.83021574337235]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Dresden",
+				"apps": [
+					{
+						"id": 23,
+						"title": "DVB mobil",
+						"website_url": "https://www.dvb.de",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.dvb.dvbmobil",
+						"app_store_url": "https://appsto.re/de/nj6bgb.i",
+						"created_at": "2023-01-06T18:54:53.586Z",
+						"updated_at": "2023-01-06T18:54:53.586Z",
+						"web_store_url": "https://m.dvb.de/"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[13.686778205523904, 51.12452157799447],
+						[13.592762693739843, 51.08201703483556],
+						[13.683957740170387, 51.00339889672199],
+						[13.888911555859643, 50.94419962364455],
+						[13.921816984984062, 50.98446333951313],
+						[13.82874162831784, 51.07551984338238],
+						[13.686778205523904, 51.12452157799447]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Switzerland",
+				"apps": [
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[5.963990788862811, 46.105840702840396],
+						[6.633162265874065, 46.481515952170355],
+						[7.04302979554346, 45.82676441424118],
+						[7.887858785270169, 45.9024864066991],
+						[8.431560610341815, 46.44118242855501],
+						[9.050544226577227, 45.84424787477869],
+						[9.36003603469493, 46.475755849565445],
+						[10.213229667884283, 46.215920028980605],
+						[10.56454469331519, 46.837451712752966],
+						[9.644433912424716, 47.10571311496807],
+						[9.518964260485104, 47.58180934838555],
+						[8.548665618818784, 47.835095507489626],
+						[8.230809167238437, 47.65510734600275],
+						[7.570002333689823, 47.59309265192232],
+						[6.967748004379693, 47.4688425165198],
+						[6.2567533100552355, 46.694211140391246],
+						[5.963990788862811, 46.105840702840396]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Liechtenstein",
+				"apps": [
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[9.452047112783974, 47.03734875316596],
+						[9.667436681946972, 47.05159856034592],
+						[9.575425603857925, 47.28191523574935],
+						[9.510599617022457, 47.27482163037868],
+						[9.452047112783974, 47.03734875316596]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Vorarlberg",
+				"apps": [
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[10.16936332174002, 46.83112385673783],
+						[9.604538778206729, 47.05320277475636],
+						[9.518806481420427, 47.27093895588308],
+						[9.581844934939767, 47.55249218904683],
+						[9.833998749017129, 47.598421254677476],
+						[10.234923313400133, 47.3734961158039],
+						[10.16936332174002, 46.83112385673783]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Occitanie",
+				"apps": [
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[4.247837093650855, 43.298614697849786],
+						[5.036095523400498, 44.09017775367093],
+						[3.605552447188182, 44.90231387397867],
+						[1.3429588062401325, 45.036570096358304],
+						[-0.24815543158785094, 43.8380144779716],
+						[-0.350337079888731, 42.81866420137354],
+						[3.532565555544697, 42.37810711362738],
+						[4.247837093650855, 43.298614697849786]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Nouvelle-Aquitaine",
+				"apps": [
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[-0.35033707988873, 42.797245891154375],
+						[0.07298689164348542, 43.859068964709394],
+						[2.2333988842906574, 44.96431733384756],
+						[2.8610861524246323, 46.462495255153215],
+						[0.10218164830088114, 47.2213224302769],
+						[-0.9780243480227044, 47.02267007796485],
+						[-1.532724724513194, 46.00813494372818],
+						[-1.8392696694158335, 43.44716619804143],
+						[-1.4451404545410123, 42.957702422901946],
+						[-0.35033707988873, 42.797245891154375]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Flensburg",
+				"apps": [
+					{
+						"id": 24,
+						"title": "Fairtiq",
+						"website_url": "https://fairtiq.com/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.fairtiq.android",
+						"app_store_url": "https://apps.apple.com/ch/app/fairtiq/id1094360403",
+						"created_at": "2023-01-06T18:56:41.216Z",
+						"updated_at": "2023-01-06T18:56:41.216Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[9.590681670470302, 54.8908057675051],
+						[9.248157325096363, 54.80186540497317],
+						[9.419419497783332, 54.716608464378226],
+						[9.654485225000743, 54.86955525379253],
+						[9.590681670470302, 54.8908057675051]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Burgenland",
+				"apps": [
+					{
+						"id": 25,
+						"title": "VOR AnachB",
+						"website_url": "https://apps.apple.com/at/app/vor-anachb/id371295078",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hafas.android.vao",
+						"app_store_url": "https://apps.apple.com/at/app/vor-anachb/id371295078",
+						"created_at": "2023-01-06T20:30:33.079Z",
+						"updated_at": "2023-01-06T20:30:33.079Z",
+						"web_store_url": "https://shop.vor.at/"
+					},
+					{
+						"id": 7,
+						"title": "Wegfinder",
+						"website_url": "https://wegfinder.at/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=ch.swift.willi",
+						"app_store_url": "https://apps.apple.com/at/app/id680580267",
+						"created_at": "2023-01-06T12:02:14.471Z",
+						"updated_at": "2023-01-06T12:02:14.471Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[16.342125249969122, 47.88349408512116],
+						[16.433604005450057, 47.67765930600541],
+						[17.08781571131371, 47.70751389933352],
+						[17.17652238329522, 48.01810141385545],
+						[16.857732780861664, 48.0755506573193],
+						[16.591612764917127, 47.91323068164709],
+						[16.491817758937923, 47.952234046869535],
+						[16.342125249969122, 47.88349408512116]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Niederösterreich",
+				"apps": [
+					{
+						"id": 25,
+						"title": "VOR AnachB",
+						"website_url": "https://apps.apple.com/at/app/vor-anachb/id371295078",
+						"play_store_url": "https://play.google.com/store/apps/details?id=de.hafas.android.vao",
+						"app_store_url": "https://apps.apple.com/at/app/vor-anachb/id371295078",
+						"created_at": "2023-01-06T20:30:33.079Z",
+						"updated_at": "2023-01-06T20:30:33.079Z",
+						"web_store_url": "https://shop.vor.at/"
+					},
+					{
+						"id": 7,
+						"title": "Wegfinder",
+						"website_url": "https://wegfinder.at/",
+						"play_store_url": "https://play.google.com/store/apps/details?id=ch.swift.willi",
+						"app_store_url": "https://apps.apple.com/at/app/id680580267",
+						"created_at": "2023-01-06T12:02:14.471Z",
+						"updated_at": "2023-01-06T12:02:14.471Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[15.026404366222277, 48.9996788601762],
+						[14.684946231423982, 48.60610331065462],
+						[14.99944714505399, 48.19146874952622],
+						[16.293393761131735, 48.15251710285463],
+						[17.048195953843752, 48.14052602796431],
+						[16.92239558839175, 48.73961372088499],
+						[15.026404366222277, 48.9996788601762]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Oxford",
+				"apps": [
+					{
+						"id": 26,
+						"title": "Oxford Bus",
+						"website_url": null,
+						"play_store_url": "https://play.google.com/store/apps/details?id=uk.co.oxfordbuscompany",
+						"app_store_url": null,
+						"created_at": "2023-01-06T20:37:43.797Z",
+						"updated_at": "2023-01-06T20:37:43.797Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[-1.1780462090025805, 51.708015990228205],
+						[-1.3063747417761233, 51.70861841987775],
+						[-1.331651573989094, 51.80370155627162],
+						[-1.1707548150949927, 51.7949839147619],
+						[-1.1780462090025805, 51.708015990228205]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Barcelona",
+				"apps": [
+					{
+						"id": 27,
+						"title": "TMB App",
+						"website_url": null,
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.geomobile.tmbmobile",
+						"app_store_url": null,
+						"created_at": "2023-01-06T20:39:39.256Z",
+						"updated_at": "2023-01-06T20:39:39.256Z",
+						"web_store_url": null
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[2.453395728693192, 41.492324379718525],
+						[2.1943814911065664, 41.489914233202654],
+						[1.9031915718321615, 41.255703975563165],
+						[2.1863375706846218, 41.273843090866194],
+						[2.453395728693192, 41.492324379718525]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "Rhein-Main",
+				"apps": [
+					{
+						"id": 29,
+						"title": "RMVgo",
+						"website_url": "https://www.rmv.de",
+						"play_store_url": "https://play.google.com/store/apps/details?id=com.cubic.rmvgo",
+						"app_store_url": "https://apps.apple.com/us/app/rmvgo/id1621720603",
+						"created_at": "2023-01-07T07:31:54.329Z",
+						"updated_at": "2023-01-07T07:31:54.329Z",
+						"web_store_url": "https://www.rmv.de/webshop/fahrkartentyp-waehlen.html?lang=de"
+					}
+				]
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[8.686384667024727, 49.775169472786104],
+						[7.959816270679118, 49.998087775056916],
+						[8.407822018305074, 50.63625049451878],
+						[10.026013310090486, 50.735862325133496],
+						[9.25440939068907, 49.94082030795474],
+						[8.686384667024727, 49.775169472786104]
+					]
+				]
+			}
+		}
+	]
+}

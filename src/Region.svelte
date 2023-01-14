@@ -4,11 +4,8 @@
 	export let region;
 </script>
 
-<tr>
-	<td>{region.properties.title}</td>
-	<td>
-		{#each region.properties.apps as app}
-			<TransportApp {app} />
-		{/each}
-	</td>
-</tr>
+
+<h2>{region.properties.title}</h2>
+{#each region.properties.apps as app}
+	<TransportApp {app} />
+{/each}
