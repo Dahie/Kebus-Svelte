@@ -5,7 +5,8 @@
 </script>
 
 
-<h2>{region.properties.title}</h2>
+<p class="title mt-5 mb-3">{region.properties.title}</p>
+
 {#each region.properties.apps as app}
 	<TransportApp {app} />
 {/each}
