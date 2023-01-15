@@ -1,9 +1,5 @@
 <script>
   import 'bulma/css/bulma.css';
-  import appStoreBadge from '$lib/images/app-store-badge-en.svg';
-  import playStoreBadge from '$lib/images/play-store-badge-en.svg';
-  import webStoreBadge from '$lib/images/web-store-badge-en.svg';
-
 	export let app;
 </script>
 
@@ -24,18 +20,18 @@
     </p>
 		<p class="card-footer-item">
       <a href="{app.play_store_url}">
-        <img src={playStoreBadge} alt="Download from Google Play Store">
+        <img src="/images/play-store-badge-en.svg"  alt="Download from Google Play Store">
       </a>
     </p>
 		{#if app.web_store_url}
 			<p class="card-footer-item">
         <a href="{app.web_store_url}">
-          <img src={webStoreBadge} alt="Download from online Web Store">
+          <img src="/images/web-store-badge-en.svg"  alt="Download from online Web Store">
         </a>
 			</p>
     {:else}
       <p class="card-footer-item">
-        <span><img src={webStoreBadge} class="disabled" alt="Download from online Web Store"></span>
+        <span><img src="/images/web-store-badge-en.svg"  class="disabled" alt="Download from online Web Store"></span>
       </p>
 		{/if}
   </footer>
