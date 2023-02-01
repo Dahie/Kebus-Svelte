@@ -1,6 +1,4 @@
 <script>
-	import 'bulma/css/bulma.css';
-	import Button from 'svelma/src/components/Button.svelte';
 	import apps from '../../apps.json';
 	import Region from '../../Region.svelte';
 	import TransportApp from '../../TransportApp.svelte';

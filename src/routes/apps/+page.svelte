@@ -4,10 +4,9 @@
   import Footer from '../../Footer.svelte'
 </script>
 
-<main class="container is-max-desktop">
-	<Navbar />
 
-	<AppsList />
-
-  <Footer />
+<Navbar />
+<main class="container">
+	<AppsList />  
 </main>
+<Footer />

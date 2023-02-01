@@ -3,8 +3,9 @@
   import Footer from '../../Footer.svelte'
 </script>
 
-<main class="container is-max-desktop content">
-	<Navbar />
+<Navbar />
+<main class="container">
+	
 
 	<h1>About</h1>
 
@@ -15,9 +16,5 @@
 
 	</p>
 	<p>Kebus is a work in progress. Germany alone has over 40 transport associations and to cover all will take time and help. If you find apps or regions missing, <a href="mailto:public+kebus@danielsenff.de">let me know</a> and I will add them.</p>
-
-  <Footer />
 </main>
-
-
-
+<Footer />

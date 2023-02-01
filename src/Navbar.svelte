@@ -1,23 +1,16 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://kebus.app">
-      <img src="/kebus-logo.svg" width="112" height="28">
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a href="/" class="navbar-item">
-        Home
-      </a>
-
-      <a href="/apps" class="navbar-item">
-        Apps
-      </a>
-
-      <a href="/about" class="navbar-item">
-        About
-      </a>
-    </div>
+<nav>
+  <div class="nav-container">
+      <div class="nav-logo">
+        <a href="/">Kebus</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/apps">Apps</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <a class="mobile-menu-toggle"></a>
+      <ul class="mobile-menu menu">
+        <li><a href="/apps">Apps</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
   </div>
 </nav>

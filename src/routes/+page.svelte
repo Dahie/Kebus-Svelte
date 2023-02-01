@@ -5,14 +5,9 @@
   import Footer from '../Footer.svelte'
 </script>
 
-<main class="container is-max-desktop content">
-  <Navbar />
-
+<Navbar />
+<main class="container">
 	<RegionsList />
-
-  <div class="mt-5 mb-5">
-    <Facts  />
-  </div>
-  
-  <Footer />
+  <Facts  />
 </main>
+<Footer />

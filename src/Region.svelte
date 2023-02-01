@@ -5,8 +5,16 @@
 </script>
 
 
-<p class="title mt-5 mb-3">{region.properties.title}</p>
+<div class="panel">
+	<div class="panel-head">
+			<h2 class="panel-title">{region.properties.title}</h2>
+	</div>
 
-{#each region.properties.apps as app}
-	<TransportApp {app} />
-{/each}
+	<div class="panel-body">
+		<div class="pricing-table row">
+			{#each region.properties.apps as app}
+				<TransportApp {app} />
+			{/each}
+		</div>
+	</div>
+</div>
