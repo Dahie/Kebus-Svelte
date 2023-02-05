@@ -2,8 +2,6 @@
 	import { fade } from 'svelte/transition';
 	import Geolocation from "svelte-geolocation";
 	import GeoJsonGeometriesLookup from 'geojson-geometries-lookup';
-	import 'bulma/css/bulma.css';
-	import Button from 'svelma/src/components/Button.svelte';
 	import CurrentLocationButton from './CurrentLocationButton.svelte';
 	import regions from './regions.json';
 	import Region from './Region.svelte';
@@ -27,7 +25,7 @@
 		<label class="label" for="searchterm">Suche:</label>
 		<div class="control">
 			<input class="input" type="text" bind:value={searchterm} placeholder="zB. Karlsplatz" />
-			<Button on:click={() => (searchterm = undefined)}>Clear</Button>
+			<button on:click={() => (searchterm = undefined)}>Clear</button>
 		</div>
 		<CurrentLocationButton />
 	</div>

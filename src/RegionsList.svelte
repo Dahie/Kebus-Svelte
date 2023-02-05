@@ -3,7 +3,6 @@
 	import Geolocation from "svelte-geolocation";
 	import GeoJsonGeometriesLookup from 'geojson-geometries-lookup';
 	
-	import Button from 'svelma/src/components/Button.svelte';
 	import CurrentLocationButton from './CurrentLocationButton.svelte';
 	import regions from './regions.json';
 	import Region from './Region.svelte';

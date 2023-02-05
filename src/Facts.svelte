@@ -19,7 +19,7 @@
         <br>
         <strong class="h4">60+ Apps</strong>
         <br>
-        Free to use. Free to modify.
+        Find your ticket app
       </p>
     </div>
   </div>

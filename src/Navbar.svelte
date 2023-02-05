@@ -1,7 +1,8 @@
 <nav>
   <div class="nav-container">
       <div class="nav-logo">
-        <a href="/">Kebus</a>
+        <a href="/">
+        <img src="/images/kebus-logo.svg" height="40" alt="Kebus Home page"></a>
       </div>
       <ul class="nav-links">
         <li><a href="/apps">Apps</a></li>
