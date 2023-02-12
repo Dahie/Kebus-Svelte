@@ -21,10 +21,10 @@
 	<Geolocation getPosition bind:position />
 
 	<p>Around your current location the following Apps are available to purchase tickets for regional public transport.</p>
-
-	{#if position != undefined && position.coords}
-		{#each coordinateContainedInRegions(position).features as region}
-			<Region {region} />
-		{/each}
-	{/if}
 </section>
+
+{#if position != undefined && position.coords}
+	{#each coordinateContainedInRegions(position).features as region}
+		<Region {region} />
+	{/each}
+{/if}
