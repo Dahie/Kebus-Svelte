@@ -20,12 +20,12 @@
         <div class="col col-sm-6 col-lg-3">
             <h4 class="footer-links-category">Stay in Touch</h4>
             <ul class="footer-links">
-                <li><a href="https://chaos.social/@dahie" target="_blank" rel="me">Follow on Mastodon</a></li>
+                <li><a href="https://chaos.social/@dahie" rel="me">Follow on Mastodon</a></li>
             </ul>
         </div>
     </div>
 </div>
-  <p class="copyright align-center">Made by <a href="https://www.danielsenff.">Daniel Senff</a>.</p>
+  <p class="copyright align-center">Made by <a href="https://www.danielsenff.de">Daniel Senff</a>.</p>
 </footer>
 
 <style>
