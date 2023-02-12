@@ -49,8 +49,11 @@
     margin: 15px 0;
   }
 
+  .store-link:last-of-type {
+    margin-bottom: 0;
+  }
+
   .package {
-    padding-bottom: 0px;
     display: block;
     border: 0;
     border-radius: 1rem;
