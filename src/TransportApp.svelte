@@ -34,10 +34,12 @@
         </a>
       </div>
     {:else}
-      <div class="store-link button button-primary button-round button-disabled">
-        <FontAwesomeIcon icon={faGlobe} />
-        Web Shop
-    </div>
+      <div class="store-link">
+        <div class="button button-primary button-round button-disabled">
+          <FontAwesomeIcon icon={faGlobe} />
+          Web Shop
+        </div>
+      </div>
     {/if}
   </div>
 </div>
@@ -47,14 +49,9 @@
     margin: 15px 0;
   }
 
-  .panel-body {
-    padding: 0;
-  }
-
   .package {
     padding-bottom: 0px;
     display: block;
-    background-color: #F4D99F;
     border: 0;
     border-radius: 1rem;
   }  
@@ -62,7 +59,6 @@
   .package-name a {
     text-transform: none;
     font-size: 1.2rem;
-    color: black;
     font-weight: bold;
   }
 

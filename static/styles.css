@@ -1,9 +1,34 @@
 :root {
-  --secondary-background-color: #FEFF56;
-   
+  --spacer: 1rem;
+
+  --primary-color: #EAC75C;
+  --secondary-color: #DEBEF5;
+  --light-grey-bg-color: #ededf0;
+  --lightest-grey-bg-color: #fafafa;
+  --dark-grey-bg-color: #323232;
 }
 
+body {
+  background-color: var(--lightest-grey-bg-color);
+}
 
+section {
+  background-color: white;
+}
+
+a {
+  color: var(--primary-color)
+}
+
+.button-primary {
+  line-height: 36px;
+  background-color: var(--dark-grey-bg-color);
+  border: 4px solid var(--dark-grey-bg-color);
+}
+
+.button-primary:focus {
+  border: 4px solid #DEBEF5;
+}
 
 .mobile-menu {
   display: none;
@@ -13,7 +38,3 @@
   z-index: 10;
 }
 
-
-nav {
-  background-color: var(--secondary-background-color);
-}

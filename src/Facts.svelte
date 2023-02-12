@@ -1,4 +1,4 @@
-<section class="section-secondary key-points">
+<section>
   <div class="row">
     <div class="col col-md-6 col-xlg-6 align-center">
       <p>

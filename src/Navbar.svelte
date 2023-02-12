@@ -15,3 +15,13 @@
       </ul>
   </div>
 </nav>
+
+<style>
+  nav {
+    background-color: var(--dark-grey-bg-color);
+  }
+  nav a {
+    color: white
+  }
+  
+</style>

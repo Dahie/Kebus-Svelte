@@ -18,3 +18,13 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.panel {
+		background-color: #EAC75C;
+	}
+
+	.panel .panel-head {
+		background-color: #ECD56F;
+	}
+</style>
