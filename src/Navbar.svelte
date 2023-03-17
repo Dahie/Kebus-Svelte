@@ -10,13 +10,13 @@
       </div>
       <ul class="nav-links">
         <li><a href="/apps">Apps</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="/about-us">About</a></li>
       </ul>
       <a class="mobile-menu-toggle" on:click={() => showMenu = true}></a>
       {#if showMenu}
         <ul class="mobile-menu menu">
           <li><a href="/apps">Apps</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="/about-us">About</a></li>
         </ul>
         <div class="modal-background" on:click={() => showMenu = false}></div>
       {/if}
