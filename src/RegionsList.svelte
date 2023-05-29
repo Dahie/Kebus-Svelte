@@ -15,6 +15,10 @@
 		const point1 = {type: "Point", coordinates: [position.coords.longitude, position.coords.latitude]};
 		return glookup.getContainers(point1);
 	}
+
+	function sortByArea(a, b) {
+		return a.properties.area - b.properties.area;
+	}
 </script>
 
 <section>
@@ -24,7 +28,7 @@
 </section>
 
 {#if position != undefined && position.coords}
-	{#each coordinateContainedInRegions(position).features as region}
+	{#each coordinateContainedInRegions(position).features.sort(sortByArea) as region}
 		<Region {region} />
 	{/each}
 {/if}
