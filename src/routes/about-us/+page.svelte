@@ -10,7 +10,7 @@
 
 		<p>
 			You are travelling, you arrive in a new town. 
-			So how do you get around? 
+			So how do you get around? Where do you find city buses?
 			Where do you get tickets for regional public transport?
 		</p>
 		<p>
