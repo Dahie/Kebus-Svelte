@@ -12,6 +12,9 @@
 
 	<div class="panel-body">
 		<div class="pricing-table row">
+			{#if region.properties.notes}
+				<p><em>{region.properties.notes}</em></p>
+			{/if}
 			{#each region.properties.apps as app}
 				<TransportApp {app} />
 			{/each}
