@@ -28,7 +28,16 @@
 </section>
 
 {#if position != undefined && position.coords}
-	{#each coordinateContainedInRegions(position).features.sort(sortByArea) as region}
-		<Region {region} />
-	{/each}
+	{#if !coordinateContainedInRegions(position).features.empty}
+		{#each coordinateContainedInRegions(position).features.sort(sortByArea) as region}
+			<Region {region} />
+		{/each}
+	{:else}
+		Unfortunately, we don't know any ticket apps of this region, yet.
+		<br>
+		If you know apps in your area, we are happy to 
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSdHke4T1FK0I2_ICZaqHIskhmwuP17M7DEMAZqPlvX6AzhETg/viewform?usp=sf_link" target="_blank" rel="noreferrer">add new submissions</a>.
+	{/if}
+{:else}
+	Unfortunately, we could not determine your position. Please allow access to your location in order to see available ticket append_styles.
 {/if}
