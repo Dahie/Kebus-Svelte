@@ -9,7 +9,7 @@
       <p class="fact">
         <FontAwesomeIcon icon={faEarthEurope} />
         <br>
-        <strong class="h4">90+ Regions</strong>
+        <strong class="h4">100+ Regions</strong>
         <br>
         Regions in Europe, US and Asia.
       </p>
@@ -18,7 +18,7 @@
       <p class="fact">
         <FontAwesomeIcon icon={faBus} />
         <br>
-        <strong class="h4">70+ Apps</strong>
+        <strong class="h4">90+ Apps</strong>
         <br>
         Find your ticket app
       </p>
