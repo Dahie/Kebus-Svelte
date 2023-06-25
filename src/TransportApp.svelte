@@ -7,7 +7,7 @@
   export let app;
 </script>
 
-<div class="col col-md-6">
+<div class="col">
   <div class="package">
     <p class="package-name">
       <a href="{app.website_url}" target="_blank" rel="noreferrer">{app.title}</a>

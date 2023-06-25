@@ -12,46 +12,33 @@
 	const glookup = new GeoJsonGeometriesLookup(regions)
 
 	function coordinateContainedInRegions(position) {
-		console.log(position)
 		const point1 = {type: "Point", coordinates: [position.coords.longitude, position.coords.latitude]};
 		return glookup.getContainers(point1);
 	}
 </script>
 
-<Geolocation getPosition bind:position />
+<section>
+	<Geolocation getPosition bind:position />
+	<p>Find apps to purchase tickets for regional and city buses in your area.</p>
+	<div class="form-control search-control">
+		<input class="input" type="text" bind:value={searchterm} placeholder="Show at current location" />
+		<button on:click={() => (searchterm = undefined)}>❌</button>
+	</div>
+</section>
 
 {#if regions}
-	<div class="field">
-		<label class="label" for="searchterm">Suche:</label>
-		<div class="control">
-			<input class="input" type="text" bind:value={searchterm} placeholder="zB. Karlsplatz" />
-			<button on:click={() => (searchterm = undefined)}>Clear</button>
-		</div>
-		<CurrentLocationButton />
-	</div>
-
-	{#if position != undefined && position.coords}
-		{#each coordinateContainedInRegions(position).features as region}
-			<Region {region} />
+	{#if searchterm != undefined || searchterm == ""}
+		{#each regions.features as region}
+			{#if region.properties.title && region.properties.title.toLowerCase().startsWith(searchterm.toLowerCase())}
+				<Region {region} />
+			{/if}
 		{/each}
-	{/if}
-
-	{#if searchterm != undefined}
-		<table class="table is-fullwidth" transition:fade>
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Apps</th>
-				</tr>
-			</thead>
-			<tbody>
-				{#each regions.features as region}
-					{#if region.properties.title && region.properties.title.toLowerCase().startsWith(searchterm.toLowerCase())}
-						<Region {region} />
-					{/if}
-				{/each}
-			</tbody>
-		</table>
+	{:else}
+		{#if position != undefined && position.coords}
+			{#each coordinateContainedInRegions(position).features as region}
+				<Region {region} />
+			{/each}
+		{/if}
 	{/if}
 {:else}
 	<p class="loading">loading...</p>
@@ -59,6 +46,7 @@
 
 <style>
 	.input {
-		width: 70%;
+		display: inline;
+		width: 80%;
 	}
 </style>
