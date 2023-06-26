@@ -29,7 +29,7 @@
 {#if regions}
 	{#if searchterm != undefined || searchterm == ""}
 		{#each regions.features as region}
-			{#if region.properties.title && region.properties.title.toLowerCase().startsWith(searchterm.toLowerCase())}
+			{#if (region.properties.title && region.properties.title.toLowerCase().startsWith(searchterm.toLowerCase()) || (region.properties.location_tags && region.properties.location_tags.toLowerCase().includes(searchterm.toLowerCase())))}
 				<Region {region} />
 			{/if}
 		{/each}

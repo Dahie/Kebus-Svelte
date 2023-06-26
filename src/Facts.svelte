@@ -9,7 +9,7 @@
       <p class="fact">
         <FontAwesomeIcon icon={faEarthEurope} />
         <br>
-        <strong class="h4">100+ Regions</strong>
+        <strong class="h4">125+ Regions</strong>
         <br>
         Regions in Europe, US and Asia.
       </p>
