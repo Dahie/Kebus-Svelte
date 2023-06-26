@@ -47,6 +47,6 @@
 <style>
 	.input {
 		display: inline;
-		width: 80%;
+		width: 70%;
 	}
 </style>
