@@ -2,6 +2,17 @@
 	import apps from '../../apps.json';
 	import Region from '../../Region.svelte';
 	import TransportApp from '../../TransportApp.svelte';
+
+  let sortByAppTitle = function (a, b) {
+    console.log(a)
+    if (a.title.toLowerCase() < b.title.toLowerCase()) {
+      return -1;
+    }
+    if (a.title.toLowerCase() > b.title.toLowerCase()) {
+      return 1;
+    }
+    return 0;
+  };
 </script>
 
 
@@ -18,7 +29,7 @@
         </tr>
       </thead>
       <tbody>
-        {#each apps as app}
+        {#each apps.sort(sortByAppTitle) as app}
           <tr>
             <td class="app-title">
               <a href="{app.website_url}">{app.title}</a>
