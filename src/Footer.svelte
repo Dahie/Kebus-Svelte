@@ -3,8 +3,7 @@
     <div class="row">
         <div class="col col-lg-9">
             <div class="footer-text">
-                <p>Kebus was created in a moment of frustration not being able to find the local bus ticket app.</p>
-                <p>I hope it helps you, safe journey!</p>
+                <p>Kebus helps you to find the ticket apps for public transport in your area.</p>
             </div>
         </div>
         <!---<div class="col col-sm-6 col-lg-3 col-lg-offset-1">
