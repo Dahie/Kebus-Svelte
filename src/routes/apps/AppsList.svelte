@@ -1,10 +1,7 @@
 <script>
 	import apps from '../../apps.json';
-	import Region from '../../Region.svelte';
-	import TransportApp from '../../TransportApp.svelte';
 
   let sortByAppTitle = function (a, b) {
-    console.log(a)
     if (a.title.toLowerCase() < b.title.toLowerCase()) {
       return -1;
     }

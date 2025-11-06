@@ -5,7 +5,7 @@
 
 <svelte:head>
     <title>About - Kebus</title> 
-		<meta name="description" content="How Kebus came to be, its purpose and how to contribute.">
+	<meta name="description" content="How Kebus came to be, its purpose and how to contribute.">
 </svelte:head>
 
 

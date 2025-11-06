@@ -1,5 +1,4 @@
 <script>
-  import RegionsList from '../RegionsList.svelte';
   import RegionsSearch from '../RegionsSearch.svelte';
   import Navbar from '../Navbar.svelte'
   import Facts from '../Facts.svelte'
