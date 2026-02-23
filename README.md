@@ -1,6 +1,6 @@
-# create-svelte
+# Kebus
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Web application to give you which Apps are available in your area for bus tickets.
 
 ## Creating a project
 
@@ -16,13 +16,13 @@ npm create svelte@latest my-app
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `npm install`, start a development server:
 
 ```bash
-yarn dev
+npm run dev
 
 # or start the server and open the app in a new browser tab
-yarn dev -- --open
+npm run dev -- --open
 ```
 
 ## Building
@@ -30,7 +30,7 @@ yarn dev -- --open
 To create a production version of your app:
 
 ```bash
-yarn build
+npm run build
 ```
 
 You can preview the production build with `yarn preview`.
